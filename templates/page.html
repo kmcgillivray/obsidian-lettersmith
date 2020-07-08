@@ -1,0 +1,12 @@
+{% extends "_base.html" %}
+
+{% block body %}
+<article>
+  <h1>{{doc.title}}</h1>
+  <div>{{doc.content}}</div>
+  <h2>Pages that link here</h2>
+  {% for link in doc.meta.backlinks %}
+    <p><a class="wikilink" href="{{ to_url(link.output_path) }}">{{link.title}}</a><br>{{link.summary}}</p>
+  {% endfor %}
+</article>
+{% endblock %}
