@@ -44,3 +44,10 @@ Create an `index.md` file in the root of the Obsidian vault to serve as a home p
 ### Minimal site design
 
 The included templates are very minimal and unstyled so you can modify them to your liking.
+
+## Missing features...
+
+Currently the Lettersmith/Obsidian conversion doesn't support...
+
+* Tags
+* ... and most likely other Obsidian features
