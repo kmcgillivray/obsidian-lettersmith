@@ -27,6 +27,10 @@ To start from a fresh folder of notes...
 
 The site is generated into `public/`. Lettersmith doesn't include a local web server for previewing the site, so you'll need to serve the site separately to see it.
 
+## Deploying
+
+For start-to-finish instructions for deploying the site to Netlify, see Buster's [helpful instructions here](https://github.com/busterbenson/obsidian/blob/master/installation%20instructions.md).
+
 ## Features
 
 ### Backlinks
