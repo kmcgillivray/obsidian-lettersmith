@@ -1,3 +1,4 @@
 .DS_Store
 .obsidian/
 public/
+__pycache__/
