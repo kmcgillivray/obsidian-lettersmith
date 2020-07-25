@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 
+import os
 from lettersmith import *
+import config
 
-# Update base_url to deployment URL for publishing
-base_url = 'http://localhost:8080'
+environment = os.getenv('BUILD_ENV', 'development')
+build_config = config.deploy if environment == 'deploy' else config.development
+
+base_url = build_config.base_url
 site_title = 'My notes'
 
 static = files.find('static/**/*')
